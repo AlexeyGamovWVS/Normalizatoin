@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+/* text sizing and rendering rules */
+*{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
 /* Remove default padding */
 ul[class],
 ol[class] {
